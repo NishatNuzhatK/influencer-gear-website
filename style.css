@@ -110,6 +110,33 @@ main > section{
   gap: 4rem;
 }
 
+/* collection styles */
+.collection h2{
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.collection-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+.collection-card{
+  width: 328px;
+  height: 475px;
+  border: none;
+  border-radius: .5rem;
+  padding: 16px;
+  text-align:left;
+  box-shadow: 0 0 30px lightgray;
+  
+}
+
+.collection-card img{
+  width: 100%;
+}
+
 
 
 
@@ -166,6 +193,21 @@ main > section{
   justify-items: center;
   justify-content: center;
 }
+
+.collection{
+  justify-items: center;
+    align-content: center;
+}
+
+.collection-container{
+  grid-template-columns: repeat(1,1fr);
+}
+
+.collection-card{
+  width: 100%;
+}
+
+
   
 }
 
